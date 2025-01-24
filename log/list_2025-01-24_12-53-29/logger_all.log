@@ -1,0 +1,148 @@
+[0.068s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/batman/URC_NAV']
+[0.069s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/batman/URC_NAV'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x74493ed21de0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x74493ed20fa0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x74493ed20fa0>>)
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.177s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/batman/URC_NAV'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV) by extension 'python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV) by extensions ['python_setup_py']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV) by extension 'python_setup_py'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/build) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/build) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/build) ignored
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/install) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/install) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/install) ignored
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/log) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/log) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/log) ignored
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src) by extension 'ros'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src) by extensions ['cmake', 'python']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src) by extension 'cmake'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds) by extension 'ros'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds) by extensions ['cmake', 'python']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds) by extension 'cmake'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds/depth) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds/depth) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds/depth) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds/depth) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds/depth) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds/depth) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds/depth) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds/depth) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds/depth) by extension 'ros'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds/depth) by extensions ['cmake', 'python']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds/depth) by extension 'cmake'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds/depth) by extension 'python'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds/depth) by extensions ['python_setup_py']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds/depth) by extension 'python_setup_py'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds/rgb) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds/rgb) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds/rgb) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds/rgb) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds/rgb) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds/rgb) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds/rgb) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds/rgb) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds/rgb) by extension 'ros'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds/rgb) by extensions ['cmake', 'python']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds/rgb) by extension 'cmake'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds/rgb) by extension 'python'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds/rgb) by extensions ['python_setup_py']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/point clouds/rgb) by extension 'python_setup_py'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_controller) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_controller) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_controller) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_controller) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_controller) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_controller) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_controller) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_controller) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package '/home/batman/URC_NAV/src/rover_controller' with type 'ros.ament_cmake' and name 'rover_controller'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_gazebo) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_gazebo) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_gazebo) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_gazebo) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_gazebo) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_gazebo) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_gazebo) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_gazebo) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package '/home/batman/URC_NAV/src/rover_gazebo' with type 'ros.ament_cmake' and name 'rover_gazebo'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_localization) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_localization) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_localization) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_localization) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_localization) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_localization) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_localization) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_localization) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package '/home/batman/URC_NAV/src/rover_localization' with type 'ros.ament_cmake' and name 'rover_localization'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_motor_controller_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_motor_controller_cpp) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_motor_controller_cpp) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_motor_controller_cpp) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_motor_controller_cpp) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_motor_controller_cpp) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_motor_controller_cpp) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_motor_controller_cpp) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_motor_controller_cpp) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package '/home/batman/URC_NAV/src/rover_motor_controller_cpp' with type 'ros.ament_cmake' and name 'rover_motor_controller_cpp'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_msgs) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_msgs) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_msgs) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_msgs) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_msgs) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_msgs) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_msgs) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/rover_msgs) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package '/home/batman/URC_NAV/src/rover_msgs' with type 'ros.ament_cmake' and name 'rover_msgs'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/urc_rover) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/urc_rover) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/urc_rover) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/urc_rover) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/urc_rover) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/urc_rover) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/urc_rover) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/urc_rover) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/batman/URC_NAV/src/urc_rover) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package '/home/batman/URC_NAV/src/urc_rover' with type 'ros.ament_cmake' and name 'urc_rover'
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

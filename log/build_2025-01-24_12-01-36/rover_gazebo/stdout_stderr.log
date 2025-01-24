@@ -1,0 +1,144 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rover_msgs: 1.0.0 (/home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/cmake)
+-- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/batman/URC_NAV/build/rover_gazebo
+[ 50%] [32mBuilding CXX object CMakeFiles/motors_command_parser_node.dir/src/motors_command_parser_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable motors_command_parser_node[0m
+[100%] Built target motors_command_parser_node
+-- Install configuration: ""
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/lib/rover_gazebo/motors_command_parser_node
+-- Set runtime path of "/home/batman/URC_NAV/install/rover_gazebo/lib/rover_gazebo/motors_command_parser_node" to ""
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/launch
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/launch/moon.launch.py
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/launch/gazebo.launch.py
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/launch/curiosity.launch.py
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/launch/forest.launch.py
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/launch/low_moon.launch.py
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/launch/include
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/launch/include/cmd_vel.launch.py
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/launch/include/spawn.launch.py
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/launch/include/rtabmap.launch.py
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/launch/mars.launch.py
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/worlds
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/worlds/curiosity.world
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/worlds/mars.world
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/worlds/moon.world
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/worlds/empty.world
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/worlds/low_moon.world
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/worlds/forest.world
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/crater
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/crater/model.config
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/crater/model.sdf
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/crater/meshes
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/crater/meshes/crater_martian_red.dae
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/crater/meshes/crater4k.stl
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/terrain
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/terrain/model.config
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/terrain/model.sdf
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/terrain/materials
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/terrain/materials/textures
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/terrain/materials/textures/terrain.xcf
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/terrain/materials/textures/terrain.png
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/jaggedrock
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/model.config
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/model.sdf
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/meshes
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/meshes/bumpy.jpg
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/meshes/basecolor.jpg
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/meshes/jaggedrock_texture.dae
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/moon
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/moon/model.config
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/moon/model.sdf
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/moon/materials
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/moon/materials/textures
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/moon/materials/textures/ground.jpg
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/moon/materials/textures/ground_1.jpg
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/moon/materials/textures/ground_normal.jpg
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/moon/materials/heightmap
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/moon/materials/heightmap/moon.xcf
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/moon/materials/heightmap/moon.png
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/low_moon
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/low_moon/model.config
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/low_moon/model.sdf
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/rock9
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/rock9/model.config
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/rock9/model.sdf
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/rock9/meshes
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/rock9/meshes/rock9.stl
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/rock9/meshes/rock9.dae
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/rock9/meshes/texture.jpg
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/rockformation
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/rockformation/model.config
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/rockformation/model.sdf
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/rockformation/meshes
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/rockformation/meshes/rockformation.dae
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/rockformation/meshes/SMALL_RED_BaseColor.png
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/mars_terrain
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/model.config
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/model.sdf
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/reddish-sand.jpg
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/mars_texture.jpg
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/terrain_textured.dae
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/terrain.dae
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/mars_texture_lq.jpg
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/terrain.stl
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/curiosity_path
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/model.config
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/model.sdf
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/meshes
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/meshes/curiosity_path25k.dae
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/meshes/mars_texture_lq.jpg
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/meshes/curiosity_path25k.stl
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/rviz
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/rviz/default.rviz
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/rviz/urc_bot.rviz
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/config
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/config/gazebo.yaml
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/ament_index/resource_index/package_run_dependencies/rover_gazebo
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/ament_index/resource_index/parent_prefix_path/rover_gazebo
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/environment/ament_prefix_path.sh
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/environment/ament_prefix_path.dsv
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/environment/path.sh
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/environment/path.dsv
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/local_setup.bash
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/local_setup.sh
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/local_setup.zsh
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/local_setup.dsv
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/package.dsv
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/ament_index/resource_index/packages/rover_gazebo
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/cmake/rover_gazeboConfig.cmake
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/cmake/rover_gazeboConfig-version.cmake
+-- Installing: /home/batman/URC_NAV/install/rover_gazebo/share/rover_gazebo/package.xml

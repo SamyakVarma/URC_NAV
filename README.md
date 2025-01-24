@@ -1,20 +1,20 @@
-# Steps to launch the simulation 
-Create your workspace and git clone in your src folder using the following command:
+# Documentation
 
+clone the workspace,
 
-git clone https://github.com/ShishirV712/URC_NAV.git
+cd URC_NAV
 
+install the submodules:
+rosdep install --from-paths src -r -y
 
-Navigate back to the workspace directory and type the following commands:
+Simulation world on mars with rtab: ros2 launch rover_gazebo mars.launch.py
 
+Search pattern: ros2 run rover_controller rover_searcher
 
-colcon build 
+aruco marker detection: ros2 run aruco_marker_detection aruco_detection_node
 
+Requirements:
+rtab_map
+robot_localization
+opencv_contrib_python
 
-source install/setup.bash
-
-
-Now type:
-
-
-ros2 launch rover_gazebo mars.launch.py

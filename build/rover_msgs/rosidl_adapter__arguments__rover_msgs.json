@@ -1,0 +1,6 @@
+{
+  "package_name": "rover_msgs",
+  "non_idl_tuples": [
+    "/home/batman/URC_NAV/src/rover_msgs:msg/MotorsCommand.msg"
+  ]
+}

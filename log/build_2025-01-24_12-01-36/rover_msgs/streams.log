@@ -1,0 +1,224 @@
+[0.013s] Invoking command in '/home/batman/URC_NAV/build/rover_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batman/turtlebot3_ws/install/turtlebot3_teleop:/home/batman/turtlebot3_ws/install/turtlebot3_example:/home/batman/turtlebot3_ws/install/aruco_marker_detection:/opt/ros/humble /usr/bin/cmake /home/batman/URC_NAV/src/rover_msgs -DCMAKE_INSTALL_PREFIX=/home/batman/URC_NAV/install/rover_msgs
+[0.058s] -- The C compiler identification is GNU 11.4.0
+[0.102s] -- The CXX compiler identification is GNU 11.4.0
+[0.108s] -- Detecting C compiler ABI info
+[0.158s] -- Detecting C compiler ABI info - done
+[0.165s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.166s] -- Detecting C compile features
+[0.166s] -- Detecting C compile features - done
+[0.167s] -- Detecting CXX compiler ABI info
+[0.219s] -- Detecting CXX compiler ABI info - done
+[0.224s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.224s] -- Detecting CXX compile features
+[0.224s] -- Detecting CXX compile features - done
+[0.226s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.333s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.395s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.398s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.402s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.427s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.594s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.722s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.880s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.898s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.899s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.917s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.917s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.917s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.917s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.935s] -- Found PythonExtra: .so  
+[0.961s] -- Configuring done
+[0.974s] -- Generating done
+[0.978s] -- Build files have been written to: /home/batman/URC_NAV/build/rover_msgs
+[0.984s] Invoked command in '/home/batman/URC_NAV/build/rover_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batman/turtlebot3_ws/install/turtlebot3_teleop:/home/batman/turtlebot3_ws/install/turtlebot3_example:/home/batman/turtlebot3_ws/install/aruco_marker_detection:/opt/ros/humble /usr/bin/cmake /home/batman/URC_NAV/src/rover_msgs -DCMAKE_INSTALL_PREFIX=/home/batman/URC_NAV/install/rover_msgs
+[0.984s] Invoking command in '/home/batman/URC_NAV/build/rover_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batman/turtlebot3_ws/install/turtlebot3_teleop:/home/batman/turtlebot3_ws/install/turtlebot3_example:/home/batman/turtlebot3_ws/install/aruco_marker_detection:/opt/ros/humble /usr/bin/cmake --build /home/batman/URC_NAV/build/rover_msgs -- -j16 -l16
+[1.015s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.022s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.031s] [  6%] Built target ament_cmake_python_copy_rover_msgs
+[1.172s] [  6%] Built target rover_msgs__cpp
+[1.174s] [  9%] [32mBuilding C object CMakeFiles/rover_msgs__rosidl_generator_c.dir/rosidl_generator_c/rover_msgs/msg/detail/motors_command__functions.c.o[0m
+[1.174s] running egg_info
+[1.175s] creating rover_msgs.egg-info
+[1.175s] writing rover_msgs.egg-info/PKG-INFO
+[1.175s] writing dependency_links to rover_msgs.egg-info/dependency_links.txt
+[1.175s] writing top-level names to rover_msgs.egg-info/top_level.txt
+[1.175s] writing manifest file 'rover_msgs.egg-info/SOURCES.txt'
+[1.176s] reading manifest file 'rover_msgs.egg-info/SOURCES.txt'
+[1.177s] writing manifest file 'rover_msgs.egg-info/SOURCES.txt'
+[1.179s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.180s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.181s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.196s] [ 19%] Built target ament_cmake_python_build_rover_msgs_egg
+[1.210s] [ 22%] [32m[1mLinking C shared library librover_msgs__rosidl_generator_c.so[0m
+[1.243s] [ 22%] Built target rover_msgs__rosidl_generator_c
+[1.252s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.253s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.253s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.319s] [ 35%] [32mBuilding CXX object CMakeFiles/rover_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rover_msgs/msg/motors_command__type_support.cpp.o[0m
+[1.324s] [ 38%] [32mBuilding CXX object CMakeFiles/rover_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rover_msgs/msg/detail/motors_command__type_support.cpp.o[0m
+[1.403s] [ 41%] [32mBuilding CXX object CMakeFiles/rover_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rover_msgs/msg/detail/motors_command__type_support_c.cpp.o[0m
+[1.421s] [ 45%] [32mBuilding CXX object CMakeFiles/rover_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rover_msgs/msg/detail/dds_fastrtps/motors_command__type_support.cpp.o[0m
+[1.444s] [ 48%] [32mBuilding CXX object CMakeFiles/rover_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rover_msgs/msg/motors_command__type_support.cpp.o[0m
+[1.460s] [ 51%] [32m[1mLinking CXX shared library librover_msgs__rosidl_typesupport_cpp.so[0m
+[1.468s] [ 54%] [32m[1mLinking CXX shared library librover_msgs__rosidl_typesupport_c.so[0m
+[1.488s] [ 58%] [32mBuilding C object CMakeFiles/rover_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rover_msgs/msg/detail/motors_command__type_support.c.o[0m
+[1.499s] [ 58%] Built target rover_msgs__rosidl_typesupport_cpp
+[1.499s] [ 58%] Built target rover_msgs__rosidl_typesupport_c
+[1.514s] [ 61%] [32m[1mLinking C shared library librover_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.542s] [ 61%] Built target rover_msgs__rosidl_typesupport_introspection_c
+[1.555s] [ 64%] [32m[1mLinking CXX shared library librover_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[1.607s] [ 64%] Built target rover_msgs__rosidl_typesupport_introspection_cpp
+[1.631s] [ 67%] [32m[1mLinking CXX shared library librover_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[1.654s] [ 70%] [32m[1mLinking CXX shared library librover_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.680s] [ 70%] Built target rover_msgs__rosidl_typesupport_fastrtps_c
+[1.703s] [ 70%] Built target rover_msgs__rosidl_typesupport_fastrtps_cpp
+[1.720s] [ 70%] Built target rover_msgs
+[1.735s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.905s] [ 74%] Built target rover_msgs__py
+[1.920s] [ 77%] [32mBuilding C object CMakeFiles/rover_msgs__rosidl_generator_py.dir/rosidl_generator_py/rover_msgs/msg/_motors_command_s.c.o[0m
+[1.983s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/rover_msgs/librover_msgs__rosidl_generator_py.so[0m
+[2.011s] [ 80%] Built target rover_msgs__rosidl_generator_py
+[2.029s] [ 83%] [32mBuilding C object CMakeFiles/rover_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rover_msgs/_rover_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.029s] [ 87%] [32mBuilding C object CMakeFiles/rover_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rover_msgs/_rover_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.030s] [ 90%] [32mBuilding C object CMakeFiles/rover_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rover_msgs/_rover_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.080s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/rover_msgs/rover_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.085s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/rover_msgs/rover_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.086s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rover_msgs/rover_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.104s] [100%] Built target rover_msgs__rosidl_typesupport_introspection_c__pyext
+[2.109s] [100%] Built target rover_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.110s] [100%] Built target rover_msgs__rosidl_typesupport_c__pyext
+[2.120s] Invoked command in '/home/batman/URC_NAV/build/rover_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batman/turtlebot3_ws/install/turtlebot3_teleop:/home/batman/turtlebot3_ws/install/turtlebot3_example:/home/batman/turtlebot3_ws/install/aruco_marker_detection:/opt/ros/humble /usr/bin/cmake --build /home/batman/URC_NAV/build/rover_msgs -- -j16 -l16
+[2.121s] Invoking command in '/home/batman/URC_NAV/build/rover_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batman/turtlebot3_ws/install/turtlebot3_teleop:/home/batman/turtlebot3_ws/install/turtlebot3_example:/home/batman/turtlebot3_ws/install/aruco_marker_detection:/opt/ros/humble /usr/bin/cmake --install /home/batman/URC_NAV/build/rover_msgs
+[2.126s] -- Install configuration: ""
+[2.126s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/ament_index/resource_index/rosidl_interfaces/rover_msgs
+[2.126s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs
+[2.126s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg
+[2.126s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.126s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg/motors_command.h
+[2.126s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg/detail
+[2.126s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg/detail/motors_command__struct.h
+[2.126s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg/detail/motors_command__type_support.h
+[2.126s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg/detail/motors_command__functions.c
+[2.126s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg/detail/motors_command__functions.h
+[2.127s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/environment/library_path.sh
+[2.127s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/environment/library_path.dsv
+[2.127s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/lib/librover_msgs__rosidl_generator_c.so
+[2.127s] -- Set runtime path of "/home/batman/URC_NAV/install/rover_msgs/lib/librover_msgs__rosidl_generator_c.so" to ""
+[2.127s] -- Up-to-date: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs
+[2.127s] -- Up-to-date: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg
+[2.127s] -- Up-to-date: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg/detail
+[2.127s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg/detail/motors_command__rosidl_typesupport_fastrtps_c.h
+[2.127s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.127s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/lib/librover_msgs__rosidl_typesupport_fastrtps_c.so
+[2.127s] -- Set runtime path of "/home/batman/URC_NAV/install/rover_msgs/lib/librover_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[2.127s] -- Up-to-date: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs
+[2.127s] -- Up-to-date: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg
+[2.127s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.127s] -- Up-to-date: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg/detail
+[2.127s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg/detail/motors_command__type_support.c
+[2.128s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg/detail/motors_command__rosidl_typesupport_introspection_c.h
+[2.128s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/lib/librover_msgs__rosidl_typesupport_introspection_c.so
+[2.128s] -- Set runtime path of "/home/batman/URC_NAV/install/rover_msgs/lib/librover_msgs__rosidl_typesupport_introspection_c.so" to ""
+[2.128s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/lib/librover_msgs__rosidl_typesupport_c.so
+[2.128s] -- Set runtime path of "/home/batman/URC_NAV/install/rover_msgs/lib/librover_msgs__rosidl_typesupport_c.so" to ""
+[2.128s] -- Up-to-date: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs
+[2.128s] -- Up-to-date: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg
+[2.128s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg/motors_command.hpp
+[2.128s] -- Up-to-date: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg/detail
+[2.128s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg/detail/motors_command__struct.hpp
+[2.128s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg/detail/motors_command__traits.hpp
+[2.128s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg/detail/motors_command__type_support.hpp
+[2.128s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg/detail/motors_command__builder.hpp
+[2.128s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.129s] -- Up-to-date: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs
+[2.129s] -- Up-to-date: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg
+[2.129s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.129s] -- Up-to-date: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg/detail
+[2.129s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg/detail/dds_fastrtps
+[2.129s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg/detail/motors_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.129s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/lib/librover_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.129s] -- Set runtime path of "/home/batman/URC_NAV/install/rover_msgs/lib/librover_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.129s] -- Up-to-date: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs
+[2.129s] -- Up-to-date: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg
+[2.129s] -- Up-to-date: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg/detail
+[2.129s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg/detail/motors_command__type_support.cpp
+[2.129s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/include/rover_msgs/rover_msgs/msg/detail/motors_command__rosidl_typesupport_introspection_cpp.hpp
+[2.129s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/lib/librover_msgs__rosidl_typesupport_introspection_cpp.so
+[2.129s] -- Set runtime path of "/home/batman/URC_NAV/install/rover_msgs/lib/librover_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[2.130s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/lib/librover_msgs__rosidl_typesupport_cpp.so
+[2.130s] -- Set runtime path of "/home/batman/URC_NAV/install/rover_msgs/lib/librover_msgs__rosidl_typesupport_cpp.so" to ""
+[2.130s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/environment/pythonpath.sh
+[2.130s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/environment/pythonpath.dsv
+[2.130s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs-1.0.0-py3.10.egg-info
+[2.130s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[2.130s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[2.130s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[2.130s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[2.130s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs
+[2.130s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs/msg
+[2.130s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs/msg/_motors_command_s.c
+[2.130s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs/msg/_motors_command.py
+[2.130s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs/msg/__init__.py
+[2.130s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs/rover_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.130s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs/_rover_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.130s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs/__init__.py
+[2.131s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs/_rover_msgs_s.ep.rosidl_typesupport_c.c
+[2.131s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs/rover_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.131s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs/_rover_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.131s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs/rover_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.131s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs/librover_msgs__rosidl_generator_py.so
+[2.150s] Listing '/home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs'...
+[2.150s] Compiling '/home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs/__init__.py'...
+[2.151s] Listing '/home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs/msg'...
+[2.151s] Compiling '/home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs/msg/__init__.py'...
+[2.151s] Compiling '/home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs/msg/_motors_command.py'...
+[2.153s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs/rover_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.153s] -- Set runtime path of "/home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs/rover_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.154s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs/rover_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.154s] -- Set runtime path of "/home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs/rover_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.154s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs/rover_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.154s] -- Set runtime path of "/home/batman/URC_NAV/install/rover_msgs/local/lib/python3.10/dist-packages/rover_msgs/rover_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.154s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/lib/librover_msgs__rosidl_generator_py.so
+[2.154s] -- Set runtime path of "/home/batman/URC_NAV/install/rover_msgs/lib/librover_msgs__rosidl_generator_py.so" to ""
+[2.154s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/msg/MotorsCommand.idl
+[2.154s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/msg/MotorsCommand.msg
+[2.154s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/ament_index/resource_index/package_run_dependencies/rover_msgs
+[2.154s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/ament_index/resource_index/parent_prefix_path/rover_msgs
+[2.155s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/environment/ament_prefix_path.sh
+[2.155s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/environment/ament_prefix_path.dsv
+[2.155s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/environment/path.sh
+[2.155s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/environment/path.dsv
+[2.155s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/local_setup.bash
+[2.155s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/local_setup.sh
+[2.155s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/local_setup.zsh
+[2.155s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/local_setup.dsv
+[2.155s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/package.dsv
+[2.155s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/ament_index/resource_index/packages/rover_msgs
+[2.155s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/cmake/export_rover_msgs__rosidl_generator_cExport.cmake
+[2.155s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/cmake/export_rover_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.155s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/cmake/export_rover_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.156s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/cmake/export_rover_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.156s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/cmake/rover_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.156s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/cmake/rover_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.156s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/cmake/rover_msgs__rosidl_typesupport_cExport.cmake
+[2.156s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/cmake/rover_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.156s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/cmake/export_rover_msgs__rosidl_generator_cppExport.cmake
+[2.156s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/cmake/export_rover_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.156s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/cmake/export_rover_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.156s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/cmake/rover_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.156s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/cmake/rover_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.156s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/cmake/rover_msgs__rosidl_typesupport_cppExport.cmake
+[2.156s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/cmake/rover_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.156s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/cmake/export_rover_msgs__rosidl_generator_pyExport.cmake
+[2.156s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/cmake/export_rover_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.156s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/cmake/rosidl_cmake-extras.cmake
+[2.156s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.156s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.157s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.157s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.157s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.157s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.157s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/cmake/rover_msgsConfig.cmake
+[2.157s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/cmake/rover_msgsConfig-version.cmake
+[2.157s] -- Installing: /home/batman/URC_NAV/install/rover_msgs/share/rover_msgs/package.xml
+[2.158s] Invoked command in '/home/batman/URC_NAV/build/rover_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batman/turtlebot3_ws/install/turtlebot3_teleop:/home/batman/turtlebot3_ws/install/turtlebot3_example:/home/batman/turtlebot3_ws/install/aruco_marker_detection:/opt/ros/humble /usr/bin/cmake --install /home/batman/URC_NAV/build/rover_msgs

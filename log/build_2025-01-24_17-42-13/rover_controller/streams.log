@@ -1,0 +1,26 @@
+[0.034s] Invoking command in '/home/batman/URC_NAV/build/rover_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batman/turtlebot3_ws/install/aruco_marker_detection:/home/batman/turtlebot3_ws/install/turtlebot3_teleop:/home/batman/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/batman/URC_NAV/build/rover_controller -- -j16 -l16
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target rover_searcher[0m
+[0.087s] [ 50%] [32mBuilding CXX object CMakeFiles/rover_searcher.dir/src/rover_searcher.cpp.o[0m
+[6.648s] [100%] [32m[1mLinking CXX executable rover_searcher[0m
+[6.978s] [100%] Built target rover_searcher
+[6.986s] Invoked command in '/home/batman/URC_NAV/build/rover_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batman/turtlebot3_ws/install/aruco_marker_detection:/home/batman/turtlebot3_ws/install/turtlebot3_teleop:/home/batman/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/batman/URC_NAV/build/rover_controller -- -j16 -l16
+[6.987s] Invoking command in '/home/batman/URC_NAV/build/rover_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batman/turtlebot3_ws/install/aruco_marker_detection:/home/batman/turtlebot3_ws/install/turtlebot3_teleop:/home/batman/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/batman/URC_NAV/build/rover_controller
+[6.992s] -- Install configuration: ""
+[6.992s] -- Installing: /home/batman/URC_NAV/install/rover_controller/lib/rover_controller/rover_searcher
+[6.997s] -- Set runtime path of "/home/batman/URC_NAV/install/rover_controller/lib/rover_controller/rover_searcher" to ""
+[6.997s] -- Up-to-date: /home/batman/URC_NAV/install/rover_controller/share/ament_index/resource_index/package_run_dependencies/rover_controller
+[6.997s] -- Up-to-date: /home/batman/URC_NAV/install/rover_controller/share/ament_index/resource_index/parent_prefix_path/rover_controller
+[6.997s] -- Up-to-date: /home/batman/URC_NAV/install/rover_controller/share/rover_controller/environment/ament_prefix_path.sh
+[6.997s] -- Up-to-date: /home/batman/URC_NAV/install/rover_controller/share/rover_controller/environment/ament_prefix_path.dsv
+[6.998s] -- Up-to-date: /home/batman/URC_NAV/install/rover_controller/share/rover_controller/environment/path.sh
+[6.998s] -- Up-to-date: /home/batman/URC_NAV/install/rover_controller/share/rover_controller/environment/path.dsv
+[6.998s] -- Up-to-date: /home/batman/URC_NAV/install/rover_controller/share/rover_controller/local_setup.bash
+[6.998s] -- Up-to-date: /home/batman/URC_NAV/install/rover_controller/share/rover_controller/local_setup.sh
+[6.998s] -- Up-to-date: /home/batman/URC_NAV/install/rover_controller/share/rover_controller/local_setup.zsh
+[6.998s] -- Up-to-date: /home/batman/URC_NAV/install/rover_controller/share/rover_controller/local_setup.dsv
+[6.998s] -- Installing: /home/batman/URC_NAV/install/rover_controller/share/rover_controller/package.dsv
+[6.998s] -- Up-to-date: /home/batman/URC_NAV/install/rover_controller/share/ament_index/resource_index/packages/rover_controller
+[6.998s] -- Up-to-date: /home/batman/URC_NAV/install/rover_controller/share/rover_controller/cmake/rover_controllerConfig.cmake
+[6.998s] -- Up-to-date: /home/batman/URC_NAV/install/rover_controller/share/rover_controller/cmake/rover_controllerConfig-version.cmake
+[6.998s] -- Up-to-date: /home/batman/URC_NAV/install/rover_controller/share/rover_controller/package.xml
+[7.000s] Invoked command in '/home/batman/URC_NAV/build/rover_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batman/turtlebot3_ws/install/aruco_marker_detection:/home/batman/turtlebot3_ws/install/turtlebot3_teleop:/home/batman/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/batman/URC_NAV/build/rover_controller

@@ -1,0 +1,16 @@
+/home/batman/URC_NAV/install/rover_controller/lib/rover_controller/rover_searcher
+/home/batman/URC_NAV/install/rover_controller/share/ament_index/resource_index/package_run_dependencies/rover_controller
+/home/batman/URC_NAV/install/rover_controller/share/ament_index/resource_index/parent_prefix_path/rover_controller
+/home/batman/URC_NAV/install/rover_controller/share/rover_controller/environment/ament_prefix_path.sh
+/home/batman/URC_NAV/install/rover_controller/share/rover_controller/environment/ament_prefix_path.dsv
+/home/batman/URC_NAV/install/rover_controller/share/rover_controller/environment/path.sh
+/home/batman/URC_NAV/install/rover_controller/share/rover_controller/environment/path.dsv
+/home/batman/URC_NAV/install/rover_controller/share/rover_controller/local_setup.bash
+/home/batman/URC_NAV/install/rover_controller/share/rover_controller/local_setup.sh
+/home/batman/URC_NAV/install/rover_controller/share/rover_controller/local_setup.zsh
+/home/batman/URC_NAV/install/rover_controller/share/rover_controller/local_setup.dsv
+/home/batman/URC_NAV/install/rover_controller/share/rover_controller/package.dsv
+/home/batman/URC_NAV/install/rover_controller/share/ament_index/resource_index/packages/rover_controller
+/home/batman/URC_NAV/install/rover_controller/share/rover_controller/cmake/rover_controllerConfig.cmake
+/home/batman/URC_NAV/install/rover_controller/share/rover_controller/cmake/rover_controllerConfig-version.cmake
+/home/batman/URC_NAV/install/rover_controller/share/rover_controller/package.xml
